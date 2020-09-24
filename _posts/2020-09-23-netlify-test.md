@@ -8,7 +8,7 @@ secondary_date: ''
 location: ''
 latitude: ''
 longitude: ''
-image: "/./screenshot-2020-09-23-at-17-19-33.png"
+image: media/number-of-circles_3.png
 alt: ''
 instagram_url: ''
 
