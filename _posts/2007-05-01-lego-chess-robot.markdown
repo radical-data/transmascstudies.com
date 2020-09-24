@@ -5,7 +5,6 @@ uid: lego-chess-robot
 title:  "Lego Chess Robot"
 worktype: "Prototyping"
 date:   2005-05-01 09:35:01
-categories: project
 role: Student
 dates: 2005
 project_site_url: /img/ESEteamReport04-05.pdf

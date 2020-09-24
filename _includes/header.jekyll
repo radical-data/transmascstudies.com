@@ -1,0 +1,42 @@
+<header>
+    <div class="inner">
+      <h1 class="site-title">
+        <a href="/">{{ site.name }}</a>
+      </h1>
+      <nav class="main-nav">
+        <ul>
+<li>
+            <a href="/tpoc">TPOC</a>
+          </li>
+<li>
+            <a href="/luv">L-U-V</a>
+          </li>
+          <li>
+            <a href="/hundred-years-plus">100+ Years Old</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="sub-nav">
+        <ul>
+          <li>
+            <a href="/mailing-list">Join the mailing list</a>
+          </li>
+          <li>
+            <a href="http://instagram.com/{{ site.instagram }}" target="_blank"><i class="fa fa-large fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="mobile-nav">
+        <ul>
+          <li>
+            <a href="">Projects</a>
+          </li>
+          <li class="">
+            <a href="http://instagram.com/{{ site.instagram }}" target="_blank"><i class="fa fa-large fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>

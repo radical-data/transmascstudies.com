@@ -1,0 +1,26 @@
+---
+layout: default
+title: 100+ Years
+permalink: /hundred-years-plus/
+---
+
+<ul class="projects clearfix">
+{% for post in site.tags.hundred-years-plus %}
+  <li>
+    <div class="project">
+      <a class="cover" href="{{ post.url }}">
+        <div class="project-details">
+          <span>
+            {{ post.title }}
+          </span>
+          <span>
+            {{ post.tags }}
+          </span>
+        </div>
+      </a>
+      <img class="thumb" src = " {{ post.image | prepend: post.url }} " />
+      <div class="aspect-one-one"></div>
+    </div>
+  </li>
+{% endfor %}
+</ul>

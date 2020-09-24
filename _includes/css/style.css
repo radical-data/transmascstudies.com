@@ -474,8 +474,8 @@ td {
     position: relative;
   }
 
-  .projects li .aspect-two-one {
-    padding-bottom: 66.67%;
+  .projects li .aspect-one-one {
+    padding-bottom: 100%;
   }
 
   .projects .cover {

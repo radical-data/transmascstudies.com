@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% comment %} <div id="post-container">
+  <div class="post post-narrow">
+    <h2>{{ page.title }}</h2>
+    <!-- <div class="separator"> </div> -->
+    {{ post.image }}
+    {{ content }}
+  </div>
+</div> {% endcomment %}
+
+<div class="post post-wide">
+    <div class="project-description">
+      <div class="row clearfix">
+        <div class="col">
+          <h2 class="project-title">{{ page.title }}</h2>
+          <h3> {{ page.name }}</h3>
+          <p>{{ page.year }}</p>
+          <p>{{ page.place }}</p>
+          <a class="project-link" href="{{ page.project_site_url }}" target="_blank">{{ page.project_site_slug }}</a>
+        </div>
+        <div class="col">
+          <h3>
+            {% if page.personal_project %}
+              Personal Project
+            {% else %}
+              Company
+            {% endif %}
+          </h3>
+          {% for p in page.company_description %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+          <div class="row">
+            {% if page.team %}
+              <div class="col-50">
+                <h3>Team</h3>
+                <p>
+                  {% for t in page.team %}
+                    {{ t | textilize }}<br/>
+                  {% endfor %}
+                </p>
+              </div>
+            {% endif %}
+            {% if page.stack %}
+              <div class="col-50">
+                <h3>Stack</h3>
+                <p>
+                  {{ page.stack }}
+                </p>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col">
+          <h3>Contribution</h3>
+          {% for p in page.contribution %}
+            <p>{{ p | textilize }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {{ content }}
+  </div>
+</div>
+
+<a href="{{page.next.url}}" title="{{page.next.title}}" class="next-project"></a>
+<a href="{{page.previous.url}}" title="{{page.previous.title}}" class="prev-project"></a>
