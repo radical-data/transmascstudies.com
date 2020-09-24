@@ -1,0 +1,34 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: primary_date
+  label: primary_date
+- type: text
+  name: location
+  label: location
+- type: text
+  name: latitude
+  label: latitude
+- type: text
+  name: longitude
+  label: longitude
+- type: file
+  name: image
+  label: image
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: instagram_url
+  label: instagram_url
