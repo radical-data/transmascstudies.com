@@ -1,24 +1,21 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
+- type: jekyll-posts
+  label: Posts
   create: all
+  match: "**/*"
 - type: directory
   path: _uploads
   label: Uploads
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
+- type: jekyll-pages
+  label: Pages
   create: all
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
