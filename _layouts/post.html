@@ -15,7 +15,7 @@ layout: default
           <p>{{ page.location }}</p>
           <p>{{ page.latitude }}° N, {{ page.longitude }}° W</p>
 
-          <img src = "ts-against-racism.jpg" alt = {{page.alt}}>
+          <img src = "{{site.url}}/{{ page.image }}" alt = {{page.alt}}>
 
           <p>Tags:</p>
           {% for tag in page.tags %}
