@@ -9,7 +9,7 @@
   <link href="https://vjs.zencdn.net/5-unsafe/video-js.css" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/all.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins&display=swap" rel="stylesheet">   
   <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
 
   <script src="{{ site.baseurl }}/js/modernizr-2.0.6.min.js"></script>

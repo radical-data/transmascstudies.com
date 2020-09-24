@@ -13,11 +13,13 @@ title: Portfolio
             {{ post.title }}
           </span>
           <span>
-            {{ post.tags }}
+          {% for tag in post.tags %}
+            <p>{{ tag }}</p>
+          {% endfor %}
           </span>
         </div>
       </a>
-      <img class="thumb" src = " {{ post.image | prepend: post.url }} " />
+      <img class="thumb" src = " {{ post.image | prepend: post.url }} " alt = " {{ post.alt | prepend: post.url }} " />
       <div class="aspect-one-one"></div>
     </div>
   </li>
