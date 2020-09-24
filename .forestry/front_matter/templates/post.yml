@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Post
 hide_body: false
 fields:
@@ -10,6 +7,8 @@ fields:
   label: Title
   description: If an individual, their name. If two people, both their names. Otherwise,
     a suitable title.
+  config:
+    required: true
 - type: datetime
   name: date
   label: Date published
@@ -25,16 +24,13 @@ fields:
   description: If an individual, birth date. Otherwise, a relevant date linked to
     the photo or history around the photo or event.
 - name: secondary_date
-  type: datetime
-  label: Secondary Date
+  type: text
+  config:
+    required: false
   description: An optional field. This should be always after the primary_date. For
     an individual, this can be their death date. For a group, it might be when they
     disbanded. For an event, it might be when the event ended.
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: Secondary Date
 - type: text
   name: location
   label: Location
