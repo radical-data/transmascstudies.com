@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Post
 hide_body: false
 fields:
@@ -64,4 +61,5 @@ fields:
   label: Instagram Post Url
   description: The url of the related Instagram post
 pages:
+- _posts/netlify-test.md
 - _posts/test/test.md
