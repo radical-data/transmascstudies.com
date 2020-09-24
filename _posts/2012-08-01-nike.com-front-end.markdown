@@ -1,26 +1,32 @@
 ---
+title: Nike.com - Mobile Front End
+date: 2012-08-01 16:35:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#000"
 uid: nike-com-mobile-front-end
-title:  "Nike.com - Mobile Front End"
-worktype: "Development"
-date:   2012-08-01 16:35:01
-categories: project
+worktype: Development
 role: Senior Front End Dev
-dates:
+dates: 
 project_site_url: https://www.nike.com
 project_site_slug: nike.com
 company_description:
-- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
+- "<b>R/GA</b> is a full service digital agency creating products, services and communications
+  to help grow client's businesses in the connected age."
 team:
 - 3 Designers
 - 2 UX Designers
 - 1 Project Manager
 stack: HTML, css, scss, js
-contribution:
-  Working closely with designers and UX, I built, prototyped and refined final mobile solutions for the main nike.com site.  The biggest challenges were a robust and intuitive navigation, a smooth checkout process, a clean basket and variation of different product pages.
-  I also ran performance test with Charles, trying to reduce image sizes and recording the variation in perceived load time.
-  On the main desktop site, I built a number of innovative hero displays, animated product rotations, interactive features, as well as building tools for the Nike content creators to understand the concept of breakpoints.
+contribution: Working closely with designers and UX, I built, prototyped and refined
+  final mobile solutions for the main nike.com site.  The biggest challenges were
+  a robust and intuitive navigation, a smooth checkout process, a clean basket and
+  variation of different product pages. I also ran performance test with Charles,
+  trying to reduce image sizes and recording the variation in perceived load time.
+  On the main desktop site, I built a number of innovative hero displays, animated
+  product rotations, interactive features, as well as building tools for the Nike
+  content creators to understand the concept of breakpoints.
 ---
 
 <div class="showcase passworded">

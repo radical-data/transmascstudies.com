@@ -1,11 +1,12 @@
 ---
+title: Live365
+date: 2019-04-01 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#100829"
 uid: live365
-title:  "Live365"
-worktype: "Development"
-date:   2019-04-01 01:01:01
-categories: project
+worktype: Development
 project_site_url: https://www.live365.com/
 project_site_slug: live365.com
 role: Senior Front End Dev

@@ -1,24 +1,28 @@
 ---
+title: Nike iD Prototyping
+date: 2013-07-01 19:35:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#000"
 uid: nikeid-prototyping
-title:  "Nike iD Prototyping"
-worktype: "Development"
-date:   2013-07-01 19:35:01
-categories: project
+worktype: Development
 role: Senior Front End Dev
 dates: 2013
 project_site_url: http://www.nike.com/nikeid
 project_site_slug: nike.com/nikeid
 company_description:
-- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
+- "<b>R/GA</b> is a full service digital agency creating products, services and communications
+  to help grow client's businesses in the connected age."
 team:
 - 1 Project Manager
 - 2 Designer
 stack: Html, css, js.
 contribution:
 - I prototyped 4 different journeys for a new version of the NikeiD shoe builder.
-- Each prototype was used for user testing of a new SwooshID campaign where you by limiting the customization choices, you'd be able to receive to receive your product in 3 days rather than 6 weeks.
+- Each prototype was used for user testing of a new SwooshID campaign where you by
+  limiting the customization choices, you'd be able to receive to receive your product
+  in 3 days rather than 6 weeks.
 ---
 
 <div class="showcase ">

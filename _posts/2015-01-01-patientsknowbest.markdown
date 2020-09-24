@@ -1,25 +1,33 @@
 ---
+title: patientsknowbest
+date: 2015-01-01 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#30a1bd"
 uid: patientsknowbest
-title:  "patientsknowbest"
-worktype: "Development"
-date:   2015-01-01 01:01:01
-categories: project
+worktype: Development
 role: Lead Front End Developer
 dates: 2015
-project_site_url:
-project_site_slug:
+project_site_url: 
+project_site_slug: 
 company_description:
-- Patients Know Best is a British social enterprise, with an aim of putting patients in control of their own medical records. Patients Know Best also integrates into the NHS Connecting for Health network to provide patients with tools to work with clinicians.
+- Patients Know Best is a British social enterprise, with an aim of putting patients
+  in control of their own medical records. Patients Know Best also integrates into
+  the NHS Connecting for Health network to provide patients with tools to work with
+  clinicians.
 team:
 - 1 Project Manager
 - 6 Backend Developers
 stack:
 - Java, jsp, jQuery, html, scss, bootstrap.
 contribution:
-- A british medical software company were in dire need of a redesign.  The whole system built on Java with jsp templating, it was a little painful.  I managed to add bootstrap and start to make things responsive.
-- One of the biggest challenges was to support IE8 as this was used by hospitals that do not update their computers.  This was achieved by using a few different libraries, breakpoints.js, css fillers, old versions of bootstrap, font awesome, modernizr.
+- A british medical software company were in dire need of a redesign.  The whole system
+  built on Java with jsp templating, it was a little painful.  I managed to add bootstrap
+  and start to make things responsive.
+- One of the biggest challenges was to support IE8 as this was used by hospitals that
+  do not update their computers.  This was achieved by using a few different libraries,
+  breakpoints.js, css fillers, old versions of bootstrap, font awesome, modernizr.
 ---
 
 <div class="showcase passworded">

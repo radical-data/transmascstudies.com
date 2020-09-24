@@ -1,11 +1,12 @@
 ---
+title: Royal Grappling Academy
+date: 2018-06-01 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#ffffff"
 uid: rga
-title:  "Royal Grappling Academy"
-worktype: "Development"
-date:   2018-06-01 01:01:01
-categories: project
+worktype: Development
 project_site_url: https://www.rga.ie/
 project_site_slug: rga.ie
 role: Senior Front End Dev

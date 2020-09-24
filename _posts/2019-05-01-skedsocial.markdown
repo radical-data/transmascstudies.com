@@ -1,11 +1,12 @@
 ---
+title: Sked Social
+date: 2019-05-01 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#4E1DFF"
 uid: skedsocial
-title:  "Sked Social"
-worktype: "Development"
-date:   2019-05-01 01:01:01
-categories: project
+worktype: Development
 project_site_url: https://www.skedsocial.com/
 project_site_slug: skedsocial.com
 role: Senior Front End Dev

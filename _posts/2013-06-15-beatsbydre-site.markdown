@@ -1,22 +1,27 @@
 ---
+title: beatsbydre
+date: 2013-06-15 09:35:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#000"
 uid: beatsbydre
-title: "beatsbydre"
-worktype: "Design & Development"
-date:   2013-06-15 09:35:01
-categories: project
+worktype: Design & Development
 role: Front End Developer
 dates: 2013
 project_site_url: http://www.beatsbydre.com/
 project_site_slug: beatsbydre.com
 company_description:
-- <b>R/GA</b> is a full service digital agency creating products, services and communications to help grow client's businesses in the connected age.
+- "<b>R/GA</b> is a full service digital agency creating products, services and communications
+  to help grow client's businesses in the connected age."
 team:
 - 1 Designer
 stack: HTML, css, js.
 contribution:
-- I was brought in to quickly deliver a production ready beatsbydre carousel in 2 days given just a few assets.  It had to be responsive and have 'cool or soft' transitions.  I experimented with timings and delays between background and foreground fades to achieve a smooth ambient reveal feeling.
+- I was brought in to quickly deliver a production ready beatsbydre carousel in 2
+  days given just a few assets.  It had to be responsive and have 'cool or soft' transitions.  I
+  experimented with timings and delays between background and foreground fades to
+  achieve a smooth ambient reveal feeling.
 ---
 
 <div class="showcase ">

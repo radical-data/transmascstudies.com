@@ -1,11 +1,12 @@
 ---
+title: Drawbackwards
+date: 2018-12-01 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#F7F7F7"
 uid: drawbackwards
-title:  "Drawbackwards"
-worktype: "Development"
-date:   2018-12-01 01:01:01
-categories: project
+worktype: Development
 project_site_url: https://www.drawbackwards.com/
 project_site_slug: drawbackwards.com
 role: Senior Front End Dev
@@ -18,7 +19,7 @@ team:
 - 1 Designer
 stack: Vue.js, html, scss, js.
 contribution:
--
+- 
 ---
 
 <p>

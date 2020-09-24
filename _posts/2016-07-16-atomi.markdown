@@ -1,26 +1,34 @@
 ---
+title: Atomi
+date: 2016-07-16 01:01:01 Z
+categories:
+- project
 layout: post-wide
 hero-bg-color: "#177CF9"
 uid: atomi
-title:  "Atomi"
-worktype: "Development"
-date:   2016-07-16 01:01:01
-categories: project
+worktype: Development
 role: Senior Front End Dev
 dates: 2016 - 9 months
 project_site_url: http://www.getatomi.com
 project_site_slug: www.getatomi.com
 company_description:
-- Atomi deliver millions of video lessons each year to students around the world, helping to extend learning beyond the classroom and empowering students and teachers to work better together.
+- Atomi deliver millions of video lessons each year to students around the world,
+  helping to extend learning beyond the classroom and empowering students and teachers
+  to work better together.
 team:
 - 1 Backend PHP Dev
 - 1 Designer
 - 1 CEO
 stack: Reactjs, Redux, CakePHP, SCSS, bootstrap.
 contribution:
-- I redesigned atomi's main site, as well as their user dashboard and account pages, all in React / Redux.  Their previous solution was a CakePHP MVC framework and they wanted to move to a client side / API architecture with Reactjs, Redux and Laraval PHP API backend.
-- Working full remotely as Atomi are based in Sydney Australia, I collaborated with a designer and back end developer.
-- The blog is built on Ghost, using nodejs I built a custom theme to match the atomi brand.
+- I redesigned atomi's main site, as well as their user dashboard and account pages,
+  all in React / Redux.  Their previous solution was a CakePHP MVC framework and they
+  wanted to move to a client side / API architecture with Reactjs, Redux and Laraval
+  PHP API backend.
+- Working full remotely as Atomi are based in Sydney Australia, I collaborated with
+  a designer and back end developer.
+- The blog is built on Ghost, using nodejs I built a custom theme to match the atomi
+  brand.
 ---
 
 <div class="showcase__password__screen">

@@ -1,27 +1,35 @@
+---
+title: Transmascstudies.Com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 name: Trans Masc Studies
-description: Researching masculine-leaning gender variance throughout history and culture
+description: Researching masculine-leaning gender variance throughout history and
+  culture
 author: Izzy Kroese
 analytics: UA-96559329-1
-exclude: [ _design, README ]
-url: 'https://transmascstudies.com'
+exclude:
+- _design
+- README
+url: https://transmascstudies.com
 baseurl: ''
-
 instagram: transmascstudies
-
-permalink: /:year/:month/:day/:title/
-
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-include: ["_pages"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
+permalink: "/:year/:month/:day/:title/"
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-seo-tag
+include:
+- _pages
