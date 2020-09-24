@@ -20,7 +20,7 @@ layout: default
 
           <p>Tags:</p>
           {% for tag in page.tags %}
-            <p><a href = "{{site.url}}/{{tag}}">{{ tag | textilize }}</a></p>
+            <p><a href = "{{ tag | prepend:site.baseurl }}">{{ tag | textilize }}</a></p>
           {% endfor %}
 
           <p>Instagram post:</p>
