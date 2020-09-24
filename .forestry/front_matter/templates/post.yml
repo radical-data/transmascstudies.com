@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Post
 hide_body: false
 fields:
@@ -17,6 +14,15 @@ fields:
 - type: text
   name: primary_date
   label: primary_date
+- name: secondary_date
+  type: datetime
+  label: Secondary Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: location
   label: location
