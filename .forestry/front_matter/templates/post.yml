@@ -13,6 +13,9 @@ fields:
   name: date
   label: Date published
   description: Date the post was/will be published
+  default: now
+  config:
+    required: true
 - type: list
   name: tags
   label: Tags
@@ -51,12 +54,13 @@ fields:
 - type: file
   name: image
   label: Image
-  description: The image that will be the cover of the post.
+  description: The image that will be the cover of the post. Should be square and
+    at least 600px x 600px.
 - type: text
   name: alt
   label: Alternative Image Description
-  description: For accessibility and slow loading times
+  description: For accessibility and slow loading times.
 - type: text
   name: instagram_url
   label: Instagram Post Url
-  description: The url of the related Instagram post
+  description: The url of the related Instagram post.
