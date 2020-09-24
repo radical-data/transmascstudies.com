@@ -1,7 +1,4 @@
 ---
----
-
----
 label: Post
 hide_body: false
 fields:
@@ -63,3 +60,5 @@ fields:
   name: instagram_url
   label: Instagram Post Url
   description: The url of the related Instagram post
+pages:
+- _posts/test/test.md
