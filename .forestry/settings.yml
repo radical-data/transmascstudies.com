@@ -7,10 +7,9 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
 - type: directory
-  path: _uploads
-  label: Uploads
+  path: media
+  label: Media
   create: all
   match: "**/*"
 - type: jekyll-pages
