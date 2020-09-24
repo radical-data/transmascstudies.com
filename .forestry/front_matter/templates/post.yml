@@ -1,26 +1,32 @@
 ---
----
-
----
 label: Post
 hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: If an individual, their name. If two people, both their names. Otherwise,
+    a suitable title.
 - type: datetime
   name: date
-  label: date
+  label: Date published
+  description: Date the post was/will be published
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  description: The tags showing what Trans Masc Studies theme the post is related
+    to.
 - type: text
   name: primary_date
-  label: primary_date
+  label: Primary Date
+  description: If an individual, birth date. Otherwise, a relevant date linked to
+    the photo or history around the photo or event.
 - name: secondary_date
   type: datetime
   label: Secondary Date
-  description: ''
+  description: An optional field. This should be always after the primary_date. For
+    an individual, this can be their death date. For a group, it might be when they
+    disbanded. For an event, it might be when the event ended.
   config:
     required: false
     date_format: 
@@ -28,19 +34,30 @@ fields:
     display_utc: false
 - type: text
   name: location
-  label: location
+  label: Location
+  description: A relevant location. Usually given as the city and country e.g. 'Manchester,
+    UK'.
 - type: text
   name: latitude
-  label: latitude
+  label: Latitude
+  description: The latitude of the location tag. Keep in mind giving the latitude
+    to an appropriate level of precision <a href="https://en.wikipedia.org/wiki/Decimal_degrees#Precision"
+    title="https://en.wikipedia.org/wiki/Decimal_degrees#Precision" target="_blank">https://en.wikipedia.org/wiki/Decimal_degrees#Precision</a>
 - type: text
   name: longitude
-  label: longitude
+  label: Longitude
+  description: The latitude of the location tag. Keep in mind giving the latitude
+    to an appropriate level of precision <a href="https://en.wikipedia.org/wiki/Decimal_degrees#Precision"
+    title="https://en.wikipedia.org/wiki/Decimal_degrees#Precision" target="_blank">https://en.wikipedia.org/wiki/Decimal_degrees#Precision</a>
 - type: file
   name: image
-  label: image
+  label: Image
+  description: The image that will be the cover of the post.
 - type: text
   name: alt
-  label: alt
+  label: Alternative Image Description
+  description: For accessibility and slow loading times
 - type: text
   name: instagram_url
-  label: instagram_url
+  label: Instagram Post Url
+  description: The url of the related Instagram post
