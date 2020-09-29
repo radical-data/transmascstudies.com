@@ -1,7 +1,8 @@
 ---
 date: 2020-09-29 12:10:11 +0000
 title: Pipás Pista
-tags: []
+tags:
+- 100+ Years
 primary_date: "1886"
 secondary_date: "1940"
 location: Átokháza, Hungary
