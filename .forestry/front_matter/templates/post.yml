@@ -65,5 +65,5 @@ fields:
   label: Instagram Post Url
   description: The url of the related Instagram post.
 pages:
+- _posts/2020-09-29-amelio-robles-avila.md
 - _posts/2020-09-29-william-brown.md
-- _posts/amelio-robles-avila.md
