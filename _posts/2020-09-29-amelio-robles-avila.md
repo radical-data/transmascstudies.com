@@ -10,7 +10,7 @@ secondary_date: 9 December 1984
 location: Xochipala, Mexico
 latitude: 17.81° N
 longitude: 99.64 W
-image: ''
+image: media/untitled-1.png
 alt: A Mexican man from the waist up, in a shirt, tie and blazer, wearing a stetson
   hat.
 instagram_url: https://www.instagram.com/p/CDtiPhXj6r4/
