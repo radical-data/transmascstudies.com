@@ -1,6 +1,6 @@
 ---
 date: 2020-09-29 09:57:32 +0000
-title: Transgender Tapestries
+title: Article in Transgender Tapestries
 tags:
 - Paper
 primary_date: December 2002
