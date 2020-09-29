@@ -8,7 +8,7 @@ secondary_date: ''
 location: Wollaton Hall, Nottingham, UK
 latitude: 52.947° N
 longitude: 1.209° W
-image: media/screenshot-2020-09-29-at-10-51-21.png
+image: media/iamge.png
 alt: Illustration from Le Roman De Silence manucript. Two adult figures stand either
   side of a smaller figure. They are dressed in red and blue robes.
 instagram_url: https://www.instagram.com/p/B_2AnkLjIaH/
