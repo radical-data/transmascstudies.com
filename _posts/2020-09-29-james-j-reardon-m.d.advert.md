@@ -4,9 +4,9 @@ title: James J Reardon, M.D. advert
 tags: []
 primary_date: December 2002
 secondary_date: ''
-location: New York, USA
-latitude: 40.71° N
-longitude: 74.00° W
+location: 737, Park Avenue, New York, USA
+latitude: 40.770° N
+longitude: 73.963° W
 image: media/screenshot-2020-04-26-at-17-15-25-copy.png
 alt: Black and white advert featuring an image of a flat chest.
 instagram_url: https://www.instagram.com/p/B_evuldjX62/
